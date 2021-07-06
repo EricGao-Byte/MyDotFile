@@ -1,4 +1,6 @@
 #!/bin/bash
+# 自用debian10服务器一键配置
+
 apt update && apt full-upgrade -y
 apt install git zsh htop iotop  tree wget curl vim tmux tmate lftp sysstat mosh nload wget sudo default-jre unzip -y
 echo net.core.default_qdisc=fq >> /etc/sysctl.conf
