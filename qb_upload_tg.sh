@@ -8,7 +8,7 @@ torrent_size=$6
 file_hash=$7
 
 DRIVE_NAME='onedrive'   # 挂载盘名称
-DRIVE_PATH='/upload'		#上传到盘的地址，后面没有 /
+DRIVE_PATH='/rclone'		#上传到盘的地址，后面没有 /
 DOWNLOAD_PATH='/downloads/'		#qb下载默认地址
 
 RETRY_NUM=3		#rclone上传重试次数
