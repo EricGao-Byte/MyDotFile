@@ -1,0 +1,15 @@
+[Unit]
+Description=HentaiAtHome Service
+Wants=network-online.target
+After=network.target
+
+[Service]
+Type=forking
+PIDFile=/root/HentaiAtHome/pid.txt
+ExecStart=bash /root/HentaiAtHome/start.sh
+ExecStop=bash /root/HentaiAtHome/stop.sh
+PrivateTmp=true
+Restart=1
+
+[Install]
+WantedBy=multi-user.target
