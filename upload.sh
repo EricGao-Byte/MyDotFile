@@ -19,4 +19,4 @@ elif [ -f "$file" ]; then
     # /usr/bin/rclone copy "$1" od2:/rclone/ --log-file=/home/ericdeamn/rclone.log
 fi
 
-curl -g -i -X GET "https://api.telegram.org/bot${bot_api}/sendMessage?chat_id=${chat_id}&text=种子名称：$2已上传到gd"
+curl -g -i -X GET "https://api.telegram.org/bot${bot_api}/sendMessage?chat_id=${chat_id}&text=*$2*已上传到gd"
