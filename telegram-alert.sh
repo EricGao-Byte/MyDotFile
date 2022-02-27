@@ -18,7 +18,7 @@ URL="https://api.telegram.org/bot${KEY}/sendMessage"
 
 # IP Exceptions
 # Don't send an alert for theses IPs:
-KNOWN_IPs="127.0.0.1 123.456.789.10"
+KNOWN_IPs="127.0.0.1 192.168.194.202 192.168.194.171 192.168.194.203"
 
 ###############
 # SCRIPT CONFIG
