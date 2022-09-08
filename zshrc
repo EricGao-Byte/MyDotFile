@@ -109,3 +109,6 @@ unset-proxy() {
         unset http_proxy
         unset https_proxy
 }
+
+# 解决粘贴多行文本缓慢的问题
+zstyle ':bracketed-paste-magic' active-widgets '.self-*'
