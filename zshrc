@@ -112,3 +112,6 @@ unset-proxy() {
 
 # 解决粘贴多行文本缓慢的问题
 zstyle ':bracketed-paste-magic' active-widgets '.self-*'
+
+# 更改命令补全默认颜色为蓝色
+ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE="fg=cyan,bold"
